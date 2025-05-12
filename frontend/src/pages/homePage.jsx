@@ -1,9 +1,10 @@
-import React from 'react'
 import { WaveComponent } from '../components/waveComponent'
 import Navbar from '../components/navbarComponent'
-import { ServicesPage } from './servicesPage'
 import { AboutUsPage } from './aboutUsPage'
 import 'animate.css/animate.min.css'
+import DemoComponent from '../components/demoComponent'
+import { Demmo } from '../components/demoComponentt'
+import { SectionServices } from '../components/sectionServices'
 
 
 export const HomePage = () => {
@@ -16,7 +17,7 @@ export const HomePage = () => {
                     <div className="hidden md:block">
                         <img
                             className="absolute w-full h-full object-cover transition-all duration-700 ease-in-out transform opacity-50"
-                            src="https://scontent.fgua2-2.fna.fbcdn.net/v/t39.30808-6/495457741_695791952957318_8744095689192312131_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=YgZdUbLwDfAQ7kNvwHs3umY&_nc_oc=AdntfAW7bbEndmL-geHWwackDdVS6xtVkVFIy-C6mVDkqRyEk-1HpkPFEi-KYb2DeLo1_ghqiTr2EUetNei3hNag&_nc_zt=23&_nc_ht=scontent.fgua2-2.fna&_nc_gid=hn7wgJbYbfiIepc9Thh-6g&oh=00_AfGIvUXIjpRfsed1baOGTESbyEm8ltjeh0orszEWIfS3vQ&oe=681DEA6F"
+                            src="https://scontent.fgua9-2.fna.fbcdn.net/v/t39.30808-6/495457741_695791952957318_8744095689192312131_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=qoziDiR_0c8Q7kNvwFpARO0&_nc_oc=AdktEFw8ZcJHPnsrpLmwIja3mj-ZIa7bO4dK9UGFf1_-J1ouPLSWC2ve3xNIfXqkDt0&_nc_zt=23&_nc_ht=scontent.fgua9-2.fna&_nc_gid=dRBk_KegMxfawvcr7FxrBA&oh=00_AfJXg7MKjw465E264OKSY18y_L5OBWXjGTDP_A_9Ty5H0g&oe=682562EF"
                             alt="Fondo escritorio"
                         />
                     </div>
@@ -38,6 +39,7 @@ export const HomePage = () => {
                     </div>
                 </div>
                 <AboutUsPage />
+                <SectionServices />
 
             </div>
 
